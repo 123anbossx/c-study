@@ -10,5 +10,4 @@ int main(){
     cout<<a<<endl; // 输出
     cout  <<endl<< "这是一个测试程序"<<endl<< "这是一个宏常量"<<day<<endl<<"这是一个用const修饰的常量"<<Day<<endl<< "Press Enter to continue..."; // 输出
     cin.get(); // 输出
-    return 0;
 }
