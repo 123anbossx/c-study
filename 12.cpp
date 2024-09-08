@@ -4,7 +4,6 @@ int main(){
     srand((unsigned)time(NULL)); //生成随机数的种子，要不然生成的随机数不变，是一个伪随机数
     int inNum;
     int num = rand()%100 +1; // 生成一个随机数1-100 范围内的随机数
-    cout << "生成的随机数"<< num<< endl;
      cout << "请您输入您猜想的值"<< endl;
     while (inNum != num) // c++中 判断不等于 用 != (js中用!==)
     {  
