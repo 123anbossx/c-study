@@ -7,6 +7,7 @@ int main(){
      //内存是在栈上分配的
      // 数组的大小在编译时确定，不能在运行时改变
      // 在超出作用域时，自动释放内存
+     // 数组名是不可以修改的
     // int arr[6] = {1,2,3};
     // string arr1[5] = {"name","age","like"};
     // for(int i=0;i<5;i++){
@@ -16,10 +17,15 @@ int main(){
     //使用 new 分配的数组需要使用 delete[] 进行释放
     // 内存是在堆上分配的
     // 数组的大小可以在运行时确定，并且可以根据需要动态调整
-    int size = 5;
-    int* arr3 = new int[size]{2,3,4,5,6,7};
-    for(int j=0;j<size;j++){
-        cout << "第"+to_string(j+1)+"个元素的值"<< arr3[j] << endl;
-    }
+    // int size = 5;
+    // int* arr3 = new int[size]{2,3,4,5,6,7};
+    // for(int j=0;j<size;j++){
+    //     cout << "第"+to_string(j+1)+"个元素的值"<< arr3[j] << endl;
+    // }
+    string arr[5] = {"hello","name","age"};
+    cout << "数组长度:"<< sizeof(arr)/sizeof(arr[0])<< endl; // 计算数组长度
+    cout << "数组首地址:"<< arr<< endl; 
+    cout << "数组第一个元素的地址:"<< &arr[0]<< endl;
+    cout << "单个元素所占空间:" << sizeof(arr[0]) << endl; 
     return 0;
 }
