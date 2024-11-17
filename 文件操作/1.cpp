@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-// 写文件
+// 文本方式读写写文件
 void wrightFile(){
     // 创建文件对象
     ofstream ofs;
