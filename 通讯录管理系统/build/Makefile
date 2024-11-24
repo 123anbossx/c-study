@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+boss.o: boss.cpp.o
+.PHONY : boss.o
+
+# target to build an object file
+boss.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/boss.cpp.o
+.PHONY : boss.cpp.o
+
+boss.i: boss.cpp.i
+.PHONY : boss.i
+
+# target to preprocess a source file
+boss.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/boss.cpp.i
+.PHONY : boss.cpp.i
+
+boss.s: boss.cpp.s
+.PHONY : boss.s
+
+# target to generate assembly for a file
+boss.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/boss.cpp.s
+.PHONY : boss.cpp.s
+
 employee.o: employee.cpp.o
 .PHONY : employee.o
 
@@ -177,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+manager.o: manager.cpp.o
+.PHONY : manager.o
+
+# target to build an object file
+manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/manager.cpp.o
+.PHONY : manager.cpp.o
+
+manager.i: manager.cpp.i
+.PHONY : manager.i
+
+# target to preprocess a source file
+manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/manager.cpp.i
+.PHONY : manager.cpp.i
+
+manager.s: manager.cpp.s
+.PHONY : manager.s
+
+# target to generate assembly for a file
+manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/manager.cpp.s
+.PHONY : manager.cpp.s
+
 workerManager.o: workerManager.cpp.o
 .PHONY : workerManager.o
 
@@ -210,12 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... boss.o"
+	@echo "... boss.i"
+	@echo "... boss.s"
 	@echo "... employee.o"
 	@echo "... employee.i"
 	@echo "... employee.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... manager.o"
+	@echo "... manager.i"
+	@echo "... manager.s"
 	@echo "... workerManager.o"
 	@echo "... workerManager.i"
 	@echo "... workerManager.s"

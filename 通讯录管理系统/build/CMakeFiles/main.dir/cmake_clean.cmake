@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/boss.cpp.o"
+  "CMakeFiles/main.dir/boss.cpp.o.d"
   "CMakeFiles/main.dir/employee.cpp.o"
   "CMakeFiles/main.dir/employee.cpp.o.d"
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o.d"
+  "CMakeFiles/main.dir/manager.cpp.o"
+  "CMakeFiles/main.dir/manager.cpp.o.d"
   "CMakeFiles/main.dir/workerManager.cpp.o"
   "CMakeFiles/main.dir/workerManager.cpp.o.d"
   "main"
