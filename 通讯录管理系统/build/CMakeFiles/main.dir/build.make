@@ -86,52 +86,10 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mima0000/workspace/c-study/通讯录管理系统/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
-CMakeFiles/main.dir/boss.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/boss.cpp.o: /Users/mima0000/workspace/c-study/通讯录管理系统/boss.cpp
-CMakeFiles/main.dir/boss.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/boss.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/boss.cpp.o -MF CMakeFiles/main.dir/boss.cpp.o.d -o CMakeFiles/main.dir/boss.cpp.o -c /Users/mima0000/workspace/c-study/通讯录管理系统/boss.cpp
-
-CMakeFiles/main.dir/boss.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/boss.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mima0000/workspace/c-study/通讯录管理系统/boss.cpp > CMakeFiles/main.dir/boss.cpp.i
-
-CMakeFiles/main.dir/boss.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/boss.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mima0000/workspace/c-study/通讯录管理系统/boss.cpp -o CMakeFiles/main.dir/boss.cpp.s
-
-CMakeFiles/main.dir/manager.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/manager.cpp.o: /Users/mima0000/workspace/c-study/通讯录管理系统/manager.cpp
-CMakeFiles/main.dir/manager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/manager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/manager.cpp.o -MF CMakeFiles/main.dir/manager.cpp.o.d -o CMakeFiles/main.dir/manager.cpp.o -c /Users/mima0000/workspace/c-study/通讯录管理系统/manager.cpp
-
-CMakeFiles/main.dir/manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/manager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mima0000/workspace/c-study/通讯录管理系统/manager.cpp > CMakeFiles/main.dir/manager.cpp.i
-
-CMakeFiles/main.dir/manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/manager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mima0000/workspace/c-study/通讯录管理系统/manager.cpp -o CMakeFiles/main.dir/manager.cpp.s
-
-CMakeFiles/main.dir/employee.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/employee.cpp.o: /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp
-CMakeFiles/main.dir/employee.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/employee.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/employee.cpp.o -MF CMakeFiles/main.dir/employee.cpp.o.d -o CMakeFiles/main.dir/employee.cpp.o -c /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp
-
-CMakeFiles/main.dir/employee.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/employee.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp > CMakeFiles/main.dir/employee.cpp.i
-
-CMakeFiles/main.dir/employee.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/employee.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp -o CMakeFiles/main.dir/employee.cpp.s
-
 CMakeFiles/main.dir/workerManager.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/workerManager.cpp.o: /Users/mima0000/workspace/c-study/通讯录管理系统/workerManager.cpp
 CMakeFiles/main.dir/workerManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/workerManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/workerManager.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/workerManager.cpp.o -MF CMakeFiles/main.dir/workerManager.cpp.o.d -o CMakeFiles/main.dir/workerManager.cpp.o -c /Users/mima0000/workspace/c-study/通讯录管理系统/workerManager.cpp
 
 CMakeFiles/main.dir/workerManager.cpp.i: cmake_force
@@ -142,25 +100,35 @@ CMakeFiles/main.dir/workerManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/workerManager.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mima0000/workspace/c-study/通讯录管理系统/workerManager.cpp -o CMakeFiles/main.dir/workerManager.cpp.s
 
+CMakeFiles/main.dir/employee.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/employee.cpp.o: /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp
+CMakeFiles/main.dir/employee.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/employee.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/employee.cpp.o -MF CMakeFiles/main.dir/employee.cpp.o.d -o CMakeFiles/main.dir/employee.cpp.o -c /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp
+
+CMakeFiles/main.dir/employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/employee.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp > CMakeFiles/main.dir/employee.cpp.i
+
+CMakeFiles/main.dir/employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/employee.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp -o CMakeFiles/main.dir/employee.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/boss.cpp.o" \
-"CMakeFiles/main.dir/manager.cpp.o" \
-"CMakeFiles/main.dir/employee.cpp.o" \
-"CMakeFiles/main.dir/workerManager.cpp.o"
+"CMakeFiles/main.dir/workerManager.cpp.o" \
+"CMakeFiles/main.dir/employee.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
-main: CMakeFiles/main.dir/boss.cpp.o
-main: CMakeFiles/main.dir/manager.cpp.o
-main: CMakeFiles/main.dir/employee.cpp.o
 main: CMakeFiles/main.dir/workerManager.cpp.o
+main: CMakeFiles/main.dir/employee.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

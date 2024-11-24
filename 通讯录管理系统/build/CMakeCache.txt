@@ -214,6 +214,15 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+main1_BINARY_DIR:STATIC=/Users/mima0000/workspace/c-study/通讯录管理系统/build
+
+//Value Computed by CMake
+main1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+main1_SOURCE_DIR:STATIC=/Users/mima0000/workspace/c-study/通讯录管理系统
+
+//Value Computed by CMake
 main_BINARY_DIR:STATIC=/Users/mima0000/workspace/c-study/通讯录管理系统/build
 
 //Value Computed by CMake

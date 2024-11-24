@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/workerManager.cpp.o: \
+CMakeFiles/main.cpp.dir/workerManager.cpp.o: \
   /Users/mima0000/workspace/c-study/通讯录管理系统/workerManager.cpp \
   /Users/mima0000/workspace/c-study/通讯录管理系统/header/workerManager.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
