@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <fstream>
 #include "worker.h"
 using namespace std;
 
@@ -11,5 +12,6 @@ class WorkerManager {
       void showMenue();
       void quitSysTem();
       void addEmp();
+      void writeFile();
       ~WorkerManager();
 };

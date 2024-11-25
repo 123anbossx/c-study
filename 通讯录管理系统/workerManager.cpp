@@ -2,6 +2,7 @@
 #include "header/employee.h"
 #include "header/manager.h"
 #include "header/boss.h"
+#define filePath "../file/one.txt"
 WorkerManager::WorkerManager(){
   this->m_empNum = 0;
   this->m_empArray = NULL;
@@ -86,10 +87,33 @@ void WorkerManager::addEmp(){
        // 指向新的内存
        this->m_empArray = allUserList;
        this->m_empNum = newSize;
+       // 写入文件
+       this->writeFile();
    }else{
      cout << "输入有误，请重新输入"<< endl;
    }
-}
+};
+void WorkerManager::writeFile(){
+  // 创建文件对象
+    ofstream ofs;
+    // if(filesystem::exists("file")){
+    //   filesystem::create_directory("file");
+    // }
+    ofs.open(filePath,ios::out);
+    if(ofs.is_open()){
+       for(int i=0;i<this->m_empNum;i++){
+          ofs<<this->m_empArray[i]->empName << " "
+            << this->m_empArray[i]->empNum << " "
+            << this->m_empArray[i]->deptNum<< endl;
+       }
+    }else{
+      cout << "打开文件失败"<< endl;
+    };
+    ofs.close();
+};
 WorkerManager::~WorkerManager(){
-
+  if(this->m_empArray!=NULL){
+     delete[] this->m_empArray;
+     this->m_empArray = NULL;
+  }
 };
