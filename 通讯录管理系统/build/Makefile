@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mima0000/workspace/c-study/通讯录管理系统
+CMAKE_SOURCE_DIR = /Users/anbo/workspace/c++Test/通讯录管理系统
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mima0000/workspace/c-study/通讯录管理系统/build
+CMAKE_BINARY_DIR = /Users/anbo/workspace/c++Test/通讯录管理系统/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles /Users/mima0000/workspace/c-study/通讯录管理系统/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anbo/workspace/c++Test/通讯录管理系统/build/CMakeFiles /Users/anbo/workspace/c++Test/通讯录管理系统/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mima0000/workspace/c-study/通讯录管理系统/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anbo/workspace/c++Test/通讯录管理系统/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/employee.cpp.o: \
-  /Users/mima0000/workspace/c-study/通讯录管理系统/employee.cpp \
-  /Users/mima0000/workspace/c-study/通讯录管理系统/header/employee.h \
+  /Users/anbo/workspace/c++Test/通讯录管理系统/employee.cpp \
+  /Users/anbo/workspace/c++Test/通讯录管理系统/header/employee.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -791,4 +791,4 @@ CMakeFiles/main.dir/employee.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/mima0000/workspace/c-study/通讯录管理系统/header/worker.h
+  /Users/anbo/workspace/c++Test/通讯录管理系统/header/worker.h
