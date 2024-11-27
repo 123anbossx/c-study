@@ -37,7 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/Linker/Apple-AppleClang.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.31/Modules/Platform/UnixPaths.cmake"
-  "/Users/anbo/workspace/c++Test/通讯录管理系统/CMakeLists.txt"
+  "/Users/mima0000/workspace/c-study/通讯录管理系统/CMakeLists.txt"
   "CMakeFiles/3.31.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeSystem.cmake"

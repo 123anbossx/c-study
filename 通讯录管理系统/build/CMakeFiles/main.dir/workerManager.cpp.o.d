@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/workerManager.cpp.o: \
-  /Users/anbo/workspace/c++Test/通讯录管理系统/workerManager.cpp \
-  /Users/anbo/workspace/c++Test/通讯录管理系统/header/workerManager.h \
+  /Users/mima0000/workspace/c-study/通讯录管理系统/workerManager.cpp \
+  /Users/mima0000/workspace/c-study/通讯录管理系统/header/workerManager.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -810,7 +810,7 @@ CMakeFiles/main.dir/workerManager.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/anbo/workspace/c++Test/通讯录管理系统/header/worker.h \
-  /Users/anbo/workspace/c++Test/通讯录管理系统/header/employee.h \
-  /Users/anbo/workspace/c++Test/通讯录管理系统/header/manager.h \
-  /Users/anbo/workspace/c++Test/通讯录管理系统/header/boss.h
+  /Users/mima0000/workspace/c-study/通讯录管理系统/header/worker.h \
+  /Users/mima0000/workspace/c-study/通讯录管理系统/header/employee.h \
+  /Users/mima0000/workspace/c-study/通讯录管理系统/header/manager.h \
+  /Users/mima0000/workspace/c-study/通讯录管理系统/header/boss.h
