@@ -19,6 +19,18 @@ int main(){
           case 1:
              workermanager.addEmp();
              break;
+          case 2:
+             workermanager.showInfo();
+             break;
+          case 3:
+             workermanager.deleteEmp();
+            break;
+          case 4:
+             workermanager.editEmp();
+            break;
+          case 5:
+            workermanager.searchEmp();
+            break;
        default:
         break;
        }

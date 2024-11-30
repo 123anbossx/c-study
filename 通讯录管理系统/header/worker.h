@@ -9,4 +9,5 @@ class Worker {
       int deptNum;
       virtual void showInfo() = 0;
       virtual string getDeptname() = 0; 
+      virtual ~Worker(){}
 };

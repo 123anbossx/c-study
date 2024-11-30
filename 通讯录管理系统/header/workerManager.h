@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <fstream>
+#include <filesystem>
 #include "worker.h"
 using namespace std;
 
@@ -12,6 +13,15 @@ class WorkerManager {
       void showMenue();
       void quitSysTem();
       void addEmp();
+      bool isFileValid();
+      int getNum();
+      void readFile();
       void writeFile();
+      void showInfo();
+      int exitEmp(int empIt);
+      void deleteEmp();
+      void editEmp();
+      void searchEmp();
+      Worker * getWorkEmp(int empType,string userName,int userNum,int deptNum);
       ~WorkerManager();
 };
