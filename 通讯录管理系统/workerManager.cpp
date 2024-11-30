@@ -245,6 +245,63 @@ void WorkerManager::searchEmp(){
        }
     }
 };
+void WorkerManager::sortEmp(){
+    cout << "请选择排序字段"<< endl;
+    cout << "1,用户编号"<< endl;
+    cout << "2,部门编号"<< endl;
+    int sortFile;
+    cin >>sortFile; 
+    cout << "请选择排序规则"<< endl;
+    cout << "1,正序"<< endl;
+    cout << "2,倒序"<< endl;
+    int sortType;
+    cin >> sortType;
+    if(sortType==1){
+        for(int i=0;i<this->m_empNum;i++){
+           for(int j =0;j<this->m_empNum-i-1;j++){
+              Worker * tempEmp;
+              if(sortFile==1){
+                  // 根据用户编号
+                   if(this->m_empArray[j]->empNum>this->m_empArray[j+1]->empNum){
+                          tempEmp=this->m_empArray[j];
+                          this->m_empArray[j] =this->m_empArray[j+1];
+                          this->m_empArray[j+1] = tempEmp;
+                   }
+              }else{
+                  // 根据部门编号
+                        if(this->m_empArray[j]->deptNum>this->m_empArray[j+1]->deptNum){
+                          tempEmp=this->m_empArray[j];
+                          this->m_empArray[j] =this->m_empArray[j+1];
+                          this->m_empArray[j+1] = tempEmp;
+                   }
+              }
+           }
+        }
+    }else if(sortType ==2){
+       for(int i=0;i<this->m_empNum;i++){
+           for(int j =0;j<this->m_empNum-i-1;j++){
+              Worker * tempEmp;
+              if(sortFile==1){
+                  // 根据用户编号
+                   if(this->m_empArray[j]->empNum<this->m_empArray[j+1]->empNum){
+                          tempEmp=this->m_empArray[j];
+                          this->m_empArray[j] =this->m_empArray[j+1];
+                          this->m_empArray[j+1] = tempEmp;
+                   }
+              }else{
+                  // 根据部门编号
+                        if(this->m_empArray[j]->deptNum<this->m_empArray[j+1]->deptNum){
+                          tempEmp=this->m_empArray[j];
+                          this->m_empArray[j] =this->m_empArray[j+1];
+                          this->m_empArray[j+1] = tempEmp;
+                   }
+              }
+           }
+        }
+    }
+    this->writeFile();
+};
+
 Worker * WorkerManager::getWorkEmp(int empty,string userName,int userNum,int deptNum){
         Worker * tempWorker;
         switch (empty)

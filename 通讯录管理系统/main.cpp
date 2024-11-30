@@ -31,6 +31,9 @@ int main(){
           case 5:
             workermanager.searchEmp();
             break;
+          case 6:
+            workermanager.sortEmp();
+            break;
        default:
         break;
        }

@@ -22,6 +22,7 @@ class WorkerManager {
       void deleteEmp();
       void editEmp();
       void searchEmp();
+      void sortEmp();
       Worker * getWorkEmp(int empType,string userName,int userNum,int deptNum);
       ~WorkerManager();
 };
