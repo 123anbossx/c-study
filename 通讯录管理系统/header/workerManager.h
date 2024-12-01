@@ -23,6 +23,7 @@ class WorkerManager {
       void editEmp();
       void searchEmp();
       void sortEmp();
+      void clearData();
       Worker * getWorkEmp(int empType,string userName,int userNum,int deptNum);
       ~WorkerManager();
 };

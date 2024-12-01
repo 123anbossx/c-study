@@ -34,6 +34,9 @@ int main(){
           case 6:
             workermanager.sortEmp();
             break;
+          case 7:
+            workermanager.clearData();
+            break;
        default:
         break;
        }

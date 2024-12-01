@@ -301,7 +301,27 @@ void WorkerManager::sortEmp(){
     }
     this->writeFile();
 };
-
+void WorkerManager::clearData(){
+       cout << "确认清空所有数据?"<< endl;
+       cout << "0,取消"<< endl;
+       cout << "1,确认"<< endl;
+       int select;
+       cin >> select;
+       if(select==1)
+       {
+          ofstream ofs(filePath,ios::trunc);
+          ofs.close();
+          if(this->m_empArray!=nullptr){
+              for(int i=0;i<this->m_empNum;i++){
+                  delete this->m_empArray[i];
+              }
+              this->m_empNum=0;
+              delete [] this->m_empArray;
+              this->m_empArray = nullptr;
+          }
+       }  
+       cout << "清空成功"<< endl; 
+};
 Worker * WorkerManager::getWorkEmp(int empty,string userName,int userNum,int deptNum){
         Worker * tempWorker;
         switch (empty)
