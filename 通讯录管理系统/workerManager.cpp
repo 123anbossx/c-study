@@ -351,7 +351,11 @@ Worker * WorkerManager::getWorkEmp(int empty,string userName,int userNum,int dep
 WorkerManager::~WorkerManager()
 {
   if(this->m_empArray!=NULL){
+    for(int i=0;i<this->m_empNum;i++){
+       delete this->m_empArray[i];
+    }
      delete[] this->m_empArray;
+     this->m_empNum = 0;
      this->m_empArray = NULL;
   }
 };
