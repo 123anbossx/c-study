@@ -25,7 +25,7 @@ int main(){
     // 第三种
  
     for_each(v_b,v_e,showvalue);
-
+      
     return 0;
 }
 
