@@ -1,5 +1,6 @@
 #include <iostream>
 #include <set>
+#include <string>
 using namespace std;
 // set容器的查找和统计
 class Person {
@@ -21,9 +22,14 @@ void insertSet(set<Person> &s){
     Person a("安波",20);
     Person a1("lisi",21);
     Person a2("lis2",22);
-    s.insert(a);
-    s.insert(a1);
-    s.insert(a2);
+    pair<set<Person>::iterator,bool> pa= s.insert(a);
+    cout << pa.second << endl;
+    pair<set<Person>::iterator,bool> pa1 =s.insert(a1);
+    cout << pa1.second << endl;
+    pair<set<Person>::iterator,bool> pa2= s.insert(a2);
+    cout << pa2.second << endl;
+    pair<set<Person>::iterator,bool> pa3= s.insert(a2);
+    cout << pa3.second << endl;
    set<Person>::iterator it= findSet(s,a1);
     cout << "查找出来的值" << it->m_name << " " << it->m_age << endl;
 };
