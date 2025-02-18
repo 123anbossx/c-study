@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
+// transform
 class interFace {
     public:
      int operator()(int val){
